@@ -19,7 +19,7 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Lustosa Consultoria",
-  description: "Limpe seu nome com respaldo jurídico e sem pagar suas dívidas!",
+  description: "Limpe seu nome com respaldo jurídico!",
   keywords: [
     "limpar nome sujo",
     "como limpar o nome no SPC e Serasa",
@@ -49,14 +49,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Lustosa Consultoria",
-    description: "Limpe seu nome com respaldo jurídico e sem pagar suas dívidas!",
+    description: "Limpe seu nome com respaldo jurídico!",
     url: defaultUrl,
     images: [
       {
-        url: `${defaultUrl}/og-image.webp`,
+        url: `${defaultUrl}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Limpe seu nome com respaldo jurídico e sem pagar suas dívidas!",
+        alt: "Limpe seu nome com respaldo jurídico!",
       },
     ],
   }
