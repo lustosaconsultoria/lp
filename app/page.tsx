@@ -3,7 +3,6 @@ import Faq from "@/components/sections/Faq";
 import Hero from "@/components/sections/Hero";
 import LegalSupport from "@/components/sections/LegalSupport";
 import StepSection from "@/components/sections/StepSection";
-import { Subheadline } from "@/components/subheadline";
 
 export default function Home() {
   return (

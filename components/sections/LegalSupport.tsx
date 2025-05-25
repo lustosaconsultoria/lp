@@ -64,7 +64,7 @@ const LegalSupport = () => {
               ))}
             </div>
           </div>
-          
+
           <motion.div
             className="order-1 lg:order-2"
             initial={{ opacity: 0, x: 20 }}
@@ -75,14 +75,14 @@ const LegalSupport = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-[#1C3D5A] dark:text-white mb-4">
               Seu direito está <span className="text-emerald-600 dark:text-emerald-500">na lei</span>
             </h2>
-            
+
             <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
               Atuamos com respaldo legal, garantindo seus direitos de imagem, privacidade e proteção contra cobrança abusiva.
             </p>
-            
+
             <div className="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl border border-slate-200 dark:border-slate-700">
               <blockquote className="italic text-slate-600 dark:text-slate-300 border-l-4 border-emerald-500 pl-4">
-                "É assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional."
+                &quot;isso&quot;É assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional.&quot;isso&quot;
                 <footer className="mt-2 text-sm font-semibold text-[#1C3D5A] dark:text-white">
                   — Constituição Federal, Art. 5º, inciso XIV
                 </footer>

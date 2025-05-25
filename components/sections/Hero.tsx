@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { motion } from 'framer-motion';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 const Hero = () => {
   const whatsappLink =
@@ -74,10 +75,12 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <div className="relative rounded-lg overflow-hidden shadow-xl">
-              <img 
+              <Image 
                 src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg" 
                 alt="Profissional jurídico analisando documentos" 
                 className="w-full h-auto object-cover rounded-lg"
+                width={500}
+                height={500}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1C3D5A]/60 to-transparent"></div>
               

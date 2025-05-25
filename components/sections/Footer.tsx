@@ -1,5 +1,6 @@
 import { MessageCircle, Mail, MapPin, Building } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -52,25 +53,15 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Links Úteis</h3>
             <ul className="space-y-2">
-              {/* <li>
-                <a href="#" className="text-slate-300 hover:text-white transition-colors">
-                  Termos de Uso
-                </a>
-              </li> */}
-              {/* <li>
-                <a href="#" className="text-slate-300 hover:text-white transition-colors">
-                  Política de Privacidade
-                </a>
-              </li> */}
               <li>
                 <a href="#faq" className="text-slate-300 hover:text-white transition-colors">
                   Perguntas Frequentes
                 </a>
               </li>
               <li>
-                <a href="/" className="text-slate-300 hover:text-white transition-colors">
+                <Link href="/" className="text-slate-300 hover:text-white transition-colors">
                   Sobre Nós
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
