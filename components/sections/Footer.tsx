@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://wa.me/558130350319?text=Olá,%20gostaria%20de%20limpar%20meu%20nome%20com%20ajuda%20da%20Lustosa%20Consultoria."
+                  href="https://wa.me/558185034115?text=Olá,%20gostaria%20de%20limpar%20meu%20nome%20com%20ajuda%20da%20Lustosa%20Consultoria."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors"

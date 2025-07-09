@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const WhatsappFloatingButton = () => {
   const whatsappLink =
-    "https://wa.me/558130350319?text=Olá,%20gostaria%20de%20limpar%20meu%20nome%20com%20ajuda%20da%20Lustosa%20Consultoria.";
+    "https://wa.me/558185034115?text=Olá,%20gostaria%20de%20limpar%20meu%20nome%20com%20ajuda%20da%20Lustosa%20Consultoria.";
 
   return (
     <TooltipProvider>
